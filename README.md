@@ -1,32 +1,67 @@
-# vue3-music-player
+# Vue音乐播放器项目介绍
 
-This template should help get you started developing with Vue 3 in Vite.
+## 项目概述
 
-## Recommended IDE Setup
+本项目是一个基于Vue.js构建的现代化音乐播放器应用，集成了多项前沿Web技术，为用户提供沉浸式的音乐播放体验。播放器不仅具备基础的音频播放功能，还实现了音频可视化、视频播放、智能歌单管理等高级特性。
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 技术实现
 
-## Type Support for `.vue` Imports in TS
+1. **音频处理核心**
+   - 采用现代Web Audio API进行音频解码和播放控制
+   - 实现高精度音频分析，支持实时频谱数据获取
+   - 通过Canvas API绘制动态音频频谱，提供多种可视化效果
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+2. **多媒体支持**
+   - 完整支持音频/视频播放功能
+   - 实现音视频同步播放
+   - 开发精准的歌词滚动系统，支持时间轴同步
 
-## Customize configuration
+3. **数据管理**
+   - 使用Pinia进行状态管理
+   - 实现数据持久化存储
+   - 本地缓存播放历史和用户偏好
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+4. **歌单系统**
+   - 响应式歌单创建与管理界面
+   - 支持多选操作和批量处理
+   - 智能推荐算法
 
-## Project Setup
+5. **用户体验优化**
+   - 完全响应式设计
+   - 交互动画效果
+   - 无障碍访问支持
+
+## 项目特点
+
+- 高性能音频处理引擎
+- 炫酷的可视化效果
+- 精准的歌词同步系统
+- 个性化的歌单管理
+- 跨平台兼容性
+
+## 技术栈
+
+- 前端框架：Vue 3
+- 状态管理：Pinia
+- 构建工具：Vite
+- 音频处理：Web Audio API
+- 可视化：Canvas 2D
+
+本项目为音乐爱好者提供了一个功能全面、性能优异、用户体验良好的现代化音乐播放平台。
+
+## 项目起步
 
 ```sh
 pnpm install
 ```
 
-### Compile and Hot-Reload for Development
+### 开发环境编译
 
 ```sh
 pnpm dev
 ```
 
-### Type-Check, Compile and Minify for Production
+### 生产环境编译
 
 ```sh
 pnpm build
