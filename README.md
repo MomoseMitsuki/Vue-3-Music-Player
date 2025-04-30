@@ -42,6 +42,8 @@
 ## 技术栈
 
 - 前端框架：Vue 3
+- 样式实现 Sass
+- 语言层面 TypeScript
 - 状态管理：Pinia
 - 构建工具：Vite
 - 音频处理：Web Audio API
